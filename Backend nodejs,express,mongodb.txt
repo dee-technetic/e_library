@@ -1,0 +1,36 @@
+ROUTES
+A route defines a specific path or url pattern that a web application responds to along with the resource that should be executed when the path is acssesed.
+
+learn how to create a recycle bin where people can delete temporary and recover or delete completetely
+
+IP addresses(internet protocol address) is a unique identifier assigned to each device connected to a network that uses internet protocol for communication
+note: a domain name is a modern way of reperesenting ip address
+
+Different versions of IP addresses
+IPv4: the most widely used version of ip,consisting of four groups of numbers each ranging from 0-255 separated by periods 192.168.0.1 
+note IPv4 addresses are 32bit and 4.3 billion ip addresses can be generated but the range of numbers musnt exceed 255 (192.168.1.1)
+
+IPv6:This was developed to address the exhausion of IPv4 addresses it uses 128 bit addresses and they are separated by columns and they provide a larger space
+
+types of ip addresses
+public(communication over internet) vs Private(local network)
+Static(remains constant overtime) vs Dynamic(assigned by ISPs using DHCP=> dynamic host configuration protocol)
+
+DNS(domain name system)Server
+it translates human readable domain names into IP addresses that computers use to identify each other on the network
+
+DNS Hierachy
+Root Servers(13 root server addresses hand request for top level domain e.g {.com})
+Tld servers(NAtional assembly=> same high level but different ranks)
+Authorotative DNS Servers(read about it)
+
+DNS RESOLUTION PROCESS(Read about)
+
+Protocols
+HTTP/HTTPS(uses SSL/TSL)
+FTP(used for transfer of filre between a client and server it is commonly used for website management)
+TCP/IP(TCP=>transmission control protocol:is responsible for ensuring reliable transmission of data across networks it breaks down large messages into smaller packets and it also ensures it reaches the correct destination
+)(IP => internet protocol is responsible for addressing and routing packets to their destination)
+ 
+
+

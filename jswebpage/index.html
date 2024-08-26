@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Webpage</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>LOGIN FORM</h1>
+                <form action="welcome.html" method="post">
+                    <div class="input1">
+                    <label for="fullname">Enter your fullname</label>
+                    <input type="text" name="fullname" id="fullname" class="form-control">
+                </div>
+                <div class="input2">
+                    <label for="age">How old are you?</label>
+                    <input type="text" name="dob" id="dob" class="form-control">
+                </div>
+                    <input type="button" onclick="validateForm()" value="submit" class="btn btn-dark rounded btn-md">
+                </form>
+                <h1 id="output"></h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        function validateForm(){
+            let fullname = document.getElementById("fullname").value;
+            let age = document.getElementById("dob").value;
+            if (fullname && age >= 18) {
+                document.getElementById("output").innerHTML = " welcome " + fullname + " you are an adult ";
+            } else {
+                document.getElementById("output").innerHTML = " welcome " + fullname + " you are Still a child ";
+            }
+        }
+    </script>
+</body>
+</html>

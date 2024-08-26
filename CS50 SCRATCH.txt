@@ -1,0 +1,27 @@
+HOW TO REPRESENT NUMBERS
+We represent numbers using Unary or Binary(0&1)
+and each 0s and 1s represent (1,2,4,8,16,32,64,128)i.e ^2
+
+8bits(0-255)
+
+HOW TO REPRESENT LETTERS
+WE use 7 or 8 bits to represent letters of an alphabet therefore the letter (A has 0&1 65 times 10000010)
+ASCII
+
+Unicode is used to present all human languages digitally it uses 32bits
+(U+1F468)=> this is used to represent emoji's
+
+ALGORITHM
+This is a step by step instruction for solving problems
+
+Large Language Model(LLM)
+this is an implementation in software of code that takes in input lots of languages and infers from the patterns of english words or any human language what a typical human might actually say when asked a question
+
+SCRATCH
+Scratch is a visual programming language that allows students to create their own interactive stories, games and animations.
+
+in scratch the purple blocks are called functions and the text in the white ovals are called parameters or arguments i.e they customize the default behavior of a function
+
+the return valuen is a value that can be handed back to you from a function so you can do something with it
+
+abstraction means simplify
